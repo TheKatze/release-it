@@ -63,7 +63,7 @@ export default class Happiness implements IScene {
     }, 10000);
   }
 
-  update(dx: number, elapsed: number): void {
+  update(_dx: number, elapsed: number): void {
     catcher1.visible = !this.catching;
     catcher2.visible = this.catching;
 
