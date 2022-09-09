@@ -26,8 +26,8 @@ export interface IScene {
 
 const app = new Pixi.Application({
   antialias: true,
-  resizeTo: window,
   backgroundColor: 0xffffff,
+  resizeTo: window,
 });
 
 document.body.appendChild(app.view);
